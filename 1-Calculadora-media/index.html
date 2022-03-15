@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Imersão Dev Alura - Aula 01</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        
+        <h1 class="page-title">Calculadora de média</h1>
+        <p class="page-subtitle">Descubra qual a sua média de nota de todas as provas!</p>
+        
+        <img src="assets/img/logo-imersao.svg" class="page-logo" alt="">
+        <!-- <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""> -->
+    
+
+        <div class="boxNotas">
+            <label for="number"><h2>Insira suas Notas:</h2></label>
+            <div class="nome">Qual é seu nome?<input type="text" id="name" size="2" /></div>
+
+            <div class="notas">Nota 1º Bismestre:<input type="number" id="PrimeiroBimestre" size="2" /></div>
+            <div class="notas">Nota 2º Bismestre:<input type="number" id="SegundoBimestre" size="2" /></div>
+            <div class="notas">Nota 3º Bismestre:<input type="number" id="TerceiroBimestre" size="2" /></div>
+            <div class="notas">Nota 4º Bismestre:<input type="number" id="QuartoBimestre" size="2" /></div>
+
+            <button class="btnMedia" type="submit" onclick="CalcMedia()">Calcular Média</button>
+        </div>
+
+        <div class="resultado">
+            <h2>Sua nota final é:</h2>
+            <div class="nota" id="resultado"></div>
+            <div class="classificacao">
+                <h4>Classificação:</h4>
+            </div>
+            <div class="aprovacao" id="classificacao"></div>
+        </div>
+        
+        <a href="https://alura.com.br/" target="_blank"><img src="assets/img/alura-logo.svg" alt="" class="alura-logo"></a>
+        <!-- <a href="https://alura.com.br/" target="_blank"><img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo"></a> -->
+   
+        <footer  class="rodape">Todos os direitos reservados &copy;</footer>
+    </div>
+    <script src="assets/js/javascript.js"></script>
+</body>
+</html>
