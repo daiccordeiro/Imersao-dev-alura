@@ -28,7 +28,7 @@ Repositório destinado a guardar projetos e anotações das aulas realizadas na 
 
 ## Aula 06:
 
-## Aula 07:
+## Aula 07: SuperTrunfo - parte 1
 - Criar as cartas do jogo e definir seus atributos;
 - Desenvolver uma função para sortear uma carta para o jogador e outra para a máquina;
 - Exibindo os atributos das cartas na tela para o jogador;
@@ -36,7 +36,14 @@ Repositório destinado a guardar projetos e anotações das aulas realizadas na 
 - Comparar o atributo de ambas as cartas e definir um vencedor.
 - Objetivo: sortear as cartas e definir um vencedor.
 
-## Aula 08:
+## Aula 08: SuperTrunfo completo
+- Adicionando o campo imagem nos objetos com o caminho da imagem;
+- Criar uma função que exibe a carta do jogador após o sorteio das cartas;
+- Adicionar a moldura da carta;
+- Escrever o resultado na tela após o duelo das cartas informando se o jogador venceu ou perdeu;
+- Criar uma função que exibe a carta da máquina;
+- Exibir os atributos e pontos da carta da máquina.
+- Objetivo: disputar o SuperTrunfo contra a máquina.
 
 ## Aula 09:
 
